@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <BODY BGCOLOR="yellow
-     ">
+      <BODY BGCOLOR="yellow">
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>第二回課題、フォーム部品練習</title>
