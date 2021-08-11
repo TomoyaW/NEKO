@@ -8,11 +8,15 @@
     <body>
         <h1>個人認証画面</h1>
         <form method='POST' action='result02.php'>
-            <table> border="1" style="border-collapse:collapse;">
-                <tr>ログインID：</tr>
-                <tr><input type="text"name="example"></tr>
-                <tr>パスワード：</tr>
-                <tr><input type="password"name="example"></tr><br>
+            <table border="1" style="border-collapse:collapse;">
+                <tr>
+                    <th>ログインID：</th>
+                    <td><input type="text"name="example"></td>
+                </tr>
+                <tr>
+                    <th>パスワード：</th>
+                    <td><input type="password"name="example"></td>
+                </tr>
             </table>
             <input type=submit value=" ログイン ">
             <input type=reset value=" リセット">
