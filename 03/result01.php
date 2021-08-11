@@ -26,7 +26,7 @@
             $id = "tomoya";
             $password = "Wada";
             if($_POST['id'] == $id AND $_POST['password'] == $password){
-                echo "ようこそ". $id . "さん！";
+                echo "ようこそ". $_POST . "さん！";
             }else{
                 echo "（警告）ログインIDとパスワードが間違っています";
             }
