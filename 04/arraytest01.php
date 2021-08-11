@@ -8,15 +8,15 @@
     <body>
         <h1>配列の基本</h1>
         <?php
-        $fruit = array("りんご", "すいか", "みかん", "なし", "イチゴ", "かき");
-        var_dump($fruit);
-        echo "<hr>";
-        foreach($fruit as $each){
-        echo $each . "<br/>";
-        }
-        echo "<hr>";
-        foreach($fruit as $key => $value){
-        echo $key . "番目の要素は" . $value . "です。<br/>";
+            $fruit = array("りんご", "すいか", "みかん", "なし", "イチゴ", "かき");
+            var_dump($fruit);
+            echo "<hr>";
+            foreach($fruit as $each){
+                echo $each . "<br/>";
+            }
+            echo "<hr>";
+            foreach($fruit as $key => $value){
+                echo $key . "番目の要素は" . $value . "です。<br/>";
         }
         ?>
     </body>
